@@ -20,7 +20,7 @@ export default function Resources() {
           end: "bottom+=1030 bottom",
           scrub: true,
           pin: true,
-          markers: true,
+          markers: false,
         },
       });
     });
