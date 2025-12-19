@@ -2,7 +2,7 @@ import React from "react";
 
 import "./about.css";
 import Ad from "../assets/video.mp4";
-import Poster from "../assets/POSTER.JPG";
+import Poster from "../assets/POSTER.jpg";
 import { FaArrowLeft } from "react-icons/fa6";
 
 import BlurText from "./BlurText/BlurText.jsx";
