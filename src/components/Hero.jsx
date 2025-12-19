@@ -45,8 +45,8 @@ export default function Hero() {
           />
 
           <nav>
-            <a href="">Take Action</a>
-            <a href="" className="learn">
+            <a href="#take">Take Action</a>
+            <a href="#about" className="learn">
               Learn About Us
             </a>
           </nav>

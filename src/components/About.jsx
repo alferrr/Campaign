@@ -16,7 +16,7 @@ export default function About() {
           </h2>
           <p>We are an educational campaign focused on media literacy.</p>
 
-          <a href="">Learn More</a>
+          <a href="javascript:void(0)">Learn More</a>
         </div>
 
         <motion.div
