@@ -56,7 +56,7 @@ body {
     padding: 2rem 7rem;
     position: relative;
     height: 70vh;
-    background: url(../assets/header.jpg) no-repeat center/cover;
+    background: url(../assets/header.webp) no-repeat center/cover;
     color: white;
     display: flex;
     flex-direction: column;
