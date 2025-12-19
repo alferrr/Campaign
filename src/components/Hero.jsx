@@ -3,7 +3,7 @@ import React from "react";
 import "../App.css";
 
 import heroImage from "../assets/hero.jpg";
-
+import Ad from "../assets/video.mp4";
 import Header from "./Header.jsx";
 
 import BlurText from "./BlurText/BlurText.jsx";
@@ -17,6 +17,9 @@ export default function Hero() {
     <>
       <div className="hero" id="home">
         <div className="gradient"></div>
+        <video playsInline muted autoPlay loop>
+          <source src={Ad} />
+        </video>
 
         <main>
           <BlurText

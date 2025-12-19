@@ -2,6 +2,7 @@ import { useRef, useEffect } from "react";
 
 import "../App.css";
 
+import Vid from "../assets/video.mp4";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { motion } from "motion/react";
@@ -45,16 +46,16 @@ export default function Resources() {
         </header>
 
         <main>
-          <motion.div
+          <video
+            autoPlay
+            playsInline
+            muted
+            loop
             className="video"
             ref={videoRef}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.5, ease: "easeIn" }}
           >
-            video
-          </motion.div>
+            <source src={Vid} />
+          </video>
           <div className="container">
             <motion.div
               className="block"
@@ -152,6 +153,9 @@ export default function Resources() {
               </p>
             </motion.div>
           </div>
+          <video autoPlay playsInline loop muted className="video mobile">
+            <source src={Vid} />
+          </video>
         </main>
       </div>
     </>

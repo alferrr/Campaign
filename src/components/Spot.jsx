@@ -4,6 +4,8 @@ import "../App.css";
 import SpotlightCard from "./Spotlight Card/SpotlightCard.jsx";
 import { motion } from "motion/react";
 
+import Poster from "../assets/POSTER.jpg";
+
 import { FaCircleCheck } from "react-icons/fa6";
 import { FaGlasses } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
@@ -104,7 +106,8 @@ export default function Spot() {
               <p>Pause and question before spreading it.</p>
             </SpotlightCard>
           </div>
-          <div className="poster"></div>
+
+          <img src={Poster} alt="" className="photo" />
         </motion.div>
       </div>
     </>
