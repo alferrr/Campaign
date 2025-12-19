@@ -3,6 +3,7 @@ import { useRef, useEffect } from "react";
 import "../App.css";
 
 import Vid from "../assets/video.mp4";
+import Poster from "../assets/POSTER.jpg";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { motion } from "motion/react";
@@ -151,6 +152,13 @@ export default function Resources() {
                 Download and share resources that promote media literacy and
                 responsible sharing.
               </p>
+
+              <div className="stuff">
+                <a href="/about">Watch Campaign Video</a>
+                <a href={Poster} download="truthmatters.jpg">
+                  Download Poster
+                </a>
+              </div>
             </motion.div>
           </div>
           <video autoPlay playsInline loop muted className="video mobile">

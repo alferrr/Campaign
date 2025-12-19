@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
           </h2>
           <p>We are an educational campaign focused on media literacy.</p>
 
-          <a href="javascript:void(0)">Learn More</a>
+          <a href="/about">Learn More</a>
         </div>
 
         <motion.div

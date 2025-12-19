@@ -8,6 +8,7 @@ import Header from "./Header.jsx";
 
 import BlurText from "./BlurText/BlurText.jsx";
 import Snowfall from "react-snowfall";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const handleAnimationComplete = () => {
@@ -49,9 +50,9 @@ export default function Hero() {
 
           <nav>
             <a href="#take">Take Action</a>
-            <a href="#about" className="learn">
+            <Link to="/about" className="learn">
               Learn About Us
-            </a>
+            </Link>
           </nav>
         </main>
 

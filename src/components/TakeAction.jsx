@@ -2,6 +2,7 @@ import React from "react";
 
 import "../App.css";
 import CountUp from "./CountUp.jsx";
+import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -36,7 +37,7 @@ export default function TakeAction() {
                 <li>Check sources and images</li>
                 <li>Think before sharing</li>
               </ul>
-              <a href="" className="cta">
+              <a href="/" className="cta">
                 Explore Resources
               </a>
             </motion.div>
@@ -54,7 +55,7 @@ export default function TakeAction() {
                 <li>Avoid emotional headlines</li>
                 <li>Add context when sharing</li>
               </ul>
-              <a href="" className="cta">
+              <a href="javascript:void(0)" className="cta">
                 Share
               </a>
             </motion.div>
@@ -72,7 +73,7 @@ export default function TakeAction() {
                 <li>Host or join discussions</li>
                 <li>Support media literacy</li>
               </ul>
-              <a href="" className="cta">
+              <a href="javascript:void(0)" className="cta">
                 Request Materials
               </a>
             </motion.div>
@@ -92,7 +93,7 @@ export default function TakeAction() {
                 <span className="wrapper">
                   <input type="email" name="" id="" />
                 </span>
-                <a href="">
+                <a href="javascript:void(0)">
                   <FaArrowRight className="icon" />
                 </a>
               </form>
