@@ -56,7 +56,7 @@ body {
     padding: 2rem 7rem;
     position: relative;
     height: 70vh;
-    background: url(../assets/header.webp) no-repeat center/cover;
+    background: url(../assets/headerf.webp) no-repeat center/cover;
     color: white;
     display: flex;
     flex-direction: column;
@@ -68,9 +68,9 @@ body {
       position: absolute;
       height: 100%;
       width: 100vw;
-      background: rgba(0, 0, 0, 0.318);
-      backdrop-filter: blur(1px);
-      -webkit-backdrop-filter: blur(1px);
+      background: rgba(0, 0, 0, 0.485);
+      /* backdrop-filter: blur(1px);
+      -webkit-backdrop-filter: blur(1px); */
       top: 0;
       left: 0;
     }
@@ -84,11 +84,11 @@ body {
 
     .us {
       padding: 5px 15px;
-      background: black;
+      background: #121212;
       border: 1px solid rgba(255, 255, 255, 0.134);
       border-radius: 100px;
       color: var(--green);
-      font-weight: 600;
+      font-weight: 500;
     }
 
     .h5 {
