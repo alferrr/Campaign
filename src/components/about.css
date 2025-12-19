@@ -67,7 +67,7 @@ body {
     .blur {
       position: absolute;
       height: 100%;
-      width: 100%;
+      width: 100vw;
       background: rgba(0, 0, 0, 0.318);
       backdrop-filter: blur(1px);
       -webkit-backdrop-filter: blur(1px);
