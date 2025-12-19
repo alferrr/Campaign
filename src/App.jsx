@@ -11,10 +11,12 @@ import Spot from "./components/Spot.jsx";
 import Resources from "./components/Resources.jsx";
 import TakeAction from "./components/TakeAction.jsx";
 import Footer from "./components/Footer.jsx";
+import Snowfall from "react-snowfall";
 
 export default function App() {
   return (
     <>
+      <Snowfall />
       <Header />
       <Hero />
       <About />

@@ -7,6 +7,7 @@ import heroImage from "../assets/hero.jpg";
 import Header from "./Header.jsx";
 
 import BlurText from "./BlurText/BlurText.jsx";
+import Snowfall from "react-snowfall";
 
 export default function Hero() {
   const handleAnimationComplete = () => {

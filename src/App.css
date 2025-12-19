@@ -477,6 +477,7 @@ body {
 
         .stuff {
           display: flex;
+          flex-wrap: wrap;
           gap: 1em;
 
           a {
@@ -850,5 +851,211 @@ footer {
     justify-content: space-between;
     color: gray;
     border-top: 1px solid rgba(255, 255, 255, 0.304);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .hero {
+    padding: 2rem;
+
+    main {
+      gap: 0;
+
+      .h1 {
+        font-size: 1.4rem;
+        text-shadow: 0 0 15px black;
+      }
+      .h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        line-height: 3rem;
+      }
+
+      p {
+        color: rgb(213, 212, 212);
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 0.5em;
+        margin-top: 20px;
+
+        a {
+          font-size: 12px;
+          text-align: center;
+          padding: 12 px 16px;
+        }
+      }
+    }
+  }
+
+  .about {
+    padding: 2rem;
+    flex-direction: column;
+
+    .text {
+      h2 {
+        font-size: 2rem;
+      }
+
+      a {
+        margin-top: 12px;
+      }
+    }
+
+    .photo {
+      width: 100%;
+    }
+  }
+
+  .problem {
+    padding: 2rem;
+
+    header {
+      flex-direction: column;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .container {
+      flex-direction: column;
+
+      .block {
+        width: 100%;
+      }
+    }
+  }
+
+  .spot {
+    padding: 2rem;
+
+    header {
+      flex-direction: column;
+      align-items: start;
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .resource {
+    padding: 2rem;
+
+    header {
+      flex-direction: column;
+
+      p {
+        opacity: 1;
+      }
+    }
+
+    main {
+      flex-direction: column;
+      margin-top: 0;
+
+      .video {
+        display: none;
+      }
+
+      .container {
+        width: 100%;
+
+        .block {
+          width: 100%;
+          height: auto;
+
+          .stuff {
+            gap: 1em;
+
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .takeact {
+    padding: 2rem;
+
+    header {
+      flex-direction: column;
+      align-items: start;
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .cards {
+      position: relative;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      /* border: 1px solid black; */
+
+      .card {
+        width: 100% !important;
+      }
+    }
+  }
+
+  .sign {
+    position: relative;
+    width: 100% !important;
+
+    p {
+      text-align: center;
+    }
+
+    input {
+      width: 100% !important;
+    }
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 2em;
+
+    .stat {
+      width: 100% !important;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+footer {
+  padding: 1.5rem;
+
+  header {
+    flex-direction: column;
+    align-items: start;
+    gap: 2em;
+
+    form {
+      width: 100%;
+    }
+  }
+
+  main {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .footer {
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
   }
 }
