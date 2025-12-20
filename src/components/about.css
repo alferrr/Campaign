@@ -52,6 +52,7 @@ body {
 .herolearn {
   position: relative;
   min-height: 100vh;
+
   header {
     padding: 2rem 7rem;
     position: relative;
@@ -69,8 +70,7 @@ body {
       height: 100%;
       width: 100vw;
       background: rgba(0, 0, 0, 0.485);
-      /* backdrop-filter: blur(1px);
-      -webkit-backdrop-filter: blur(1px); */
+
       top: 0;
       left: 0;
     }
@@ -313,6 +313,16 @@ body {
 
       .iza {
         background: url(../assets/iza.jpeg) no-repeat bottom center/cover;
+      }
+
+      .noah {
+        background: url(../assets/noah.jpg) no-repeat center/cover;
+      }
+      .peter {
+        background: url(../assets/peter.jpg) no-repeat center/cover;
+      }
+      .nyfe {
+        background: url(../assets/nyfe.jpg) no-repeat center/cover;
       }
     }
 
