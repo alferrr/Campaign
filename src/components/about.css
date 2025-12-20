@@ -373,6 +373,10 @@ body {
         .card {
           width: 100%;
         }
+
+        .iza {
+          background-position: center center;
+        }
       }
     }
   }
