@@ -934,6 +934,18 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  .takeact {
+    main {
+      .cards {
+        flex-direction: column;
+        align-items: stretch;
+
+        .card {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {

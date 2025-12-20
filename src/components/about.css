@@ -324,6 +324,9 @@ body {
       .nyfe {
         background: url(../assets/nyfe.jpg) no-repeat center/cover;
       }
+      .lance {
+        background: url(../assets/lance.jpg) no-repeat center/cover;
+      }
     }
 
     .two {
