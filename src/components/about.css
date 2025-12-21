@@ -49,6 +49,16 @@ body {
   background: var(--dirty);
 }
 
+.transition {
+  position: absolute;
+  z-index: 99;
+  width: 100vw;
+
+  height: 100vh;
+
+  backdrop-filter: blur(5px);
+}
+
 .herolearn {
   position: relative;
   min-height: 100vh;

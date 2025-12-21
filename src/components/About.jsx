@@ -16,8 +16,7 @@ export default function About() {
             Stronger Against Misinformation.
           </h2>
           <p>We are an educational campaign focused on media literacy.</p>
-
-          <Link to="/about">Learn More</Link>
+          <a href="/about">Learn More</a>
         </div>
 
         <motion.div

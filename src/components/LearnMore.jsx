@@ -16,6 +16,13 @@ import Footer from "./Footer.jsx";
 export default function LearnMore() {
   return (
     <>
+      <motion.div
+        className="transition"
+        initial={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 0, y: 1000 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      ></motion.div>
       <section className="herolearn" id="more">
         <Link to="/">
           <FaArrowLeft className="back" />
