@@ -34,7 +34,7 @@ export default function Spot() {
         </header>
         <motion.div
           className="container"
-          initial={{ opacity: 1, y: 20, filter: "blur(5px)" }}
+          initial={{ opacity: 0, y: 20, filter: "blur(5px)" }}
           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.5 }}
